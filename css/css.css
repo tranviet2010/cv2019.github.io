@@ -1,0 +1,378 @@
+body{
+    font-family: 'Raleway', sans-serif,'Open Sans';
+    
+ }
+ .noidung{
+    /* display: none; */
+ }
+ .left img{
+     width: 683px;
+     object-fit: cover;
+     height: 100vh;
+    
+ }
+ .left{
+     overflow: hidden;
+     position: fixed;
+ }
+ .best{
+     transform: translateY(600px);
+     transition: all 2.5s ease 0s;
+ }
+ .best_active{
+    transform: translateY(0px);
+ }
+ .buss_active{
+     display: block !important;
+    
+ }
+ .buss{
+     display: none;
+    
+ }
+ @keyframes moveup {
+    from {bottom:0px;}
+    to {bottom:5px;}
+}
+.khoibe1_active{
+    display: block !important;
+}
+.khoibe1 {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: none;
+    animation: moveup 2s infinite;
+}
+ .khoibe {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    animation: moveup 2s infinite;
+}
+ .gioithieu{
+    background-color: #f8f8f8;
+    width: 683px;
+    margin-left: -27px;
+    height: 100vh;
+    overflow: hidden;
+    padding-left: 37px;
+    padding-right: 50px;
+    transition: all 1.5s ease 0s;
+   
+   
+ }
+ .right{
+    width: 656px;
+    float: right;
+ }
+ h3,h4 {
+     margin-top: 44px;
+     font-family: 'Raleway', sans-serif;
+     text-transform: capitalize;
+     /* color: #000000a6; */
+
+ }
+ h5{
+    margin-top: 44px; 
+ }
+ h2{
+     margin-top: 67px;
+     font-family: 'Raleway', sans-serif;
+     text-transform: capitalize;
+ }
+ h2 span {
+     color: #f1d37d;
+ }
+ .thanhto {
+     width: 100%;
+     height: 2px;
+     border: none;
+     position: relative;
+     background-color: #0000002b;
+     margin-top: 20px;
+ }
+ @keyframes run {
+    from {width: 0%;}
+    to {width:86%;}
+}
+@keyframes run1 {
+    from {width: 0%;}
+    to {width:77%;}
+}
+@keyframes run2 {
+    from {width: 0%;}
+    to {width:49%;}
+}
+@keyframes run3 {
+    from {width: 0%;}
+    to {width:85%;}
+}
+ .thanhnho {
+     position: absolute;
+     background-color: black;
+     height: 100%;
+     width:86%;
+     animation-duration: 2.5s;
+     animation-name: run;
+ }
+ .thanhnho1 {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width:77%;
+    animation-duration: 2.5s;
+    animation-delay: 0.2s;
+    animation-name: run1;
+}
+.thanhnho2 {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width:49%;
+    animation-duration: 2.5s;
+    animation-delay: 0.2s;
+    animation-name: run2;
+}
+
+.thanhnho3 {
+    position: absolute;
+    background-color: black;
+    height: 100%;
+    width:85%;
+    animation-duration: 2.5s;
+    animation-delay: 0.2s;
+    animation-name: run3;
+}
+ .row.star {
+     margin-top: 70px;
+     text-align: center;
+ }
+ .row.star .lastitem h2 {
+     font-family: 'Raleway', sans-serif;
+ }
+ .lastitem hr,.gioithieu hr {
+     width: 75px;
+     background-color: #f1d37d;
+     margin-left: 0px;
+     height: 1px;
+ }
+ i.fas.fa-hashtag {
+     margin-right: 15px;
+     font-size: 18px;
+ }
+ span.hastag {
+     font-size: 18px;
+ }
+ .col-md-6 img {
+     width: 277px;
+     height: 160px;
+     margin-top: 30px;
+     cursor: pointer;
+     border-radius: 3px;
+ }
+ .edu {
+     height: 67px;
+     display: flex;
+     border-top: 1px solid;
+     border-bottom: 1px solid;
+     line-height: 67px;
+     margin-top: 19px;
+     
+ }
+ .edu p:nth-child(2) {
+    width: 257px;
+}
+ .edu p {
+     margin-right: 41px;
+     padding-left: 18px;
+ }
+ .education {
+     padding-top: 10px;
+ }
+ .education .edu:nth-child(2) {
+     background-color: #f1d37d;
+ }
+ .row.abo i {
+     font-size: 55px;
+     color: #f1d37d;
+ }
+ i.fab.fa-node {
+    color: green;
+}
+ .row.abo h3 {
+     margin-top: 35px;
+ }
+ .row.abo .col-md-6 {
+     margin-top: 35px;
+ }
+ .nut ul li {
+     display: inline;
+     width: 120px;
+     height: 40px;
+     margin-right: 26px;
+ }
+ .nut a {
+     text-decoration: none;
+     color: black;
+ }
+ .nut ul li a:hover {
+     background: #d9d9d9;
+ }
+ .noidung img {
+     height: 200px;
+     position: relative;
+     transition: all 0.5s ease 0s;
+ }
+ .nd:hover .huver{
+     display: block;
+ }
+ .nut {
+     margin-top: 29px;
+ }
+ .huver {
+     position: absolute;
+     top: 30px;
+     text-align: center;
+     width: 277px;
+     height: 200px;
+     left: 15px;
+     color: white;
+     line-height: 53px;
+     font-size: 20px;
+     background-color: #0000004f;
+     z-index: 0;
+     display: none;
+     cursor: pointer;
+ }
+ .huver h3 {
+     color: white;
+     padding-top: 14px;
+ }
+ .row.blog img {
+     width: 226px;
+     height: 136px;
+     border-radius: 5px;
+ }
+ .row.blog a {
+     color: #333333;
+     transition: all 0.5s ease 0s;
+     font-size: 33px;
+     text-decoration: none;
+ }
+ .row.blog a:hover{
+     color: #f1d37d;
+ }
+ .nho {
+     display: flex;
+ }
+ .nho p {
+     margin-right: 10px;
+ }
+ .row.blog hr {
+     width: 95%;
+     margin-top: 28px;
+     margin-bottom: 44px;
+ }
+ input.text1 {
+     width: 596px;
+     margin-bottom: 36px;
+     margin-top: 22px;
+     border: none;
+     border-bottom: 1px solid black;
+     padding-bottom: 8px;
+     padding-left: 25px;
+ }
+ input.text2 {
+     width: 285px;
+     margin-bottom: 29px;
+     border: none;
+     border-bottom: 1px solid black;
+     margin-right: 22px;
+     padding-left: 25px;
+     padding-bottom: 8px;
+ }
+ input.text3 {
+     width: 285px;
+     margin-bottom: 29px;
+     border: none;
+     border-bottom: 1px solid black;
+     padding-left: 25px;
+     padding-bottom: 8px;
+ }
+ textarea {
+     width: 96%;
+     height: 185px;
+     padding-left: 25px;
+ }
+ button.form {
+     width: 177px;
+     height: 42px;
+     background-color: #f1d37d;
+     border: none;
+     margin-top: 15px;
+     transition: 0.5s;
+     cursor: pointer;
+ }
+ input:focus, textarea:focus{
+     outline:0;
+ }
+ .row.contac {
+     margin-top: 40px;
+ }
+ .gioithieu h4 {
+    margin-top: 130px;
+}
+
+.gioithieu h2 {
+    font-family: cursive;
+    text-transform: uppercase;
+    line-height: 1.5;
+    font-size: 40px;
+    margin-bottom: 23px;
+    margin-top: 26px;
+}
+button.gt {
+    width: 177px;
+    height: 38px;
+    background-color: #f1d37d;
+    border: none;
+    transition: all 0.5s ease 0s;
+    margin-top: 30px;
+    cursor: pointer;
+}
+button.gt:hover {}
+button.gt:focus{
+    outline: 0;
+}
+ .row.contac i {
+     font-size: 22px;
+     margin-right: 7px;
+ }
+ i.fas.fa-phone {
+     transform: rotate(94deg);
+ }
+ .row.contac {font-size: 18px;line-height: 36px;}
+ .row.contac p {
+     font-size: 15px;
+ }
+ button.form:hover {
+     background-color: white;
+     border: 1px solid black;
+ }
+ .gt_active{
+    transform: translateX(-665px);
+    background-color: #1312128a;
+    color: white;
+    position: fixed;
+ }
+ .phongto{
+     width: 100%;
+     height: 100%;
+ }
