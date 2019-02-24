@@ -6,7 +6,7 @@ body{
     /* display: none; */
  }
  .left img{
-     width: 683px;
+     width: 100%;
      object-fit: cover;
      height: 100vh;
     
@@ -14,6 +14,7 @@ body{
  .left{
      overflow: hidden;
      position: fixed;
+     width: 50%;
  }
  .best{
      transform: translateY(600px);
@@ -21,6 +22,7 @@ body{
  }
  .best_active{
     transform: translateY(0px);
+    overflow: hidden;   
  }
  .buss_active{
      display: block !important;
@@ -58,18 +60,17 @@ body{
 }
  .gioithieu{
     background-color: #f8f8f8;
-    width: 683px;
-    margin-left: -27px;
+    width: 100%;
+    /* margin-left: 20px; */
     height: 100vh;
     overflow: hidden;
     padding-left: 37px;
     padding-right: 50px;
     transition: all 1.5s ease 0s;
-   
-   
+    overflow-x: hidden;
  }
  .right{
-    width: 656px;
+    width: 50%;
     float: right;
  }
  h3,h4 {
@@ -196,7 +197,7 @@ body{
  .education {
      padding-top: 10px;
  }
- .education .edu:nth-child(2) {
+ .education .edu:nth-child(3) {
      background-color: #f1d37d;
  }
  .row.abo i {
@@ -367,10 +368,11 @@ button.gt:focus{
      border: 1px solid black;
  }
  .gt_active{
-    transform: translateX(-665px);
+    transform: translateX(-100%);
     background-color: #1312128a;
     color: white;
     position: fixed;
+    width: 51%;
  }
  .phongto{
      width: 100%;

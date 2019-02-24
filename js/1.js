@@ -33,6 +33,8 @@ $(document).ready(function(){
         })
         return false;
     });
+    //code phong to anh
+    $('.anh a').fancybox();
 });
 // $(function(){
 	
